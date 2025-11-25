@@ -26,7 +26,7 @@ interface StudentClassInterface {
 	workOnHomework(): string;
 	displayName(): string;
 }
-class StudentClass implements StudentClassInterface:
+class StudentClass {
 	private firstName: string;
 	private lastName: string;
 
@@ -40,4 +40,4 @@ class StudentClass implements StudentClassInterface:
 	displayName(): string {
 		return this.firstName;
 	}
-
+}
