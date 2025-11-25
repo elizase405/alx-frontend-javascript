@@ -1,10 +1,10 @@
-Interface DirectorInterface {
+interface DirectorInterface {
 	workFromHome(): string;
 	getCoffeeBreak(): string;
 	workDirectorTasks(): string;
 }
 
-Interface TeacherInterface {
+interface TeacherInterface {
 	workFromHome(): string;
 	getCoffeeBreak(): string;
 	workTeacherTasks(): string;
